@@ -1,5 +1,3 @@
-[toc]
-
 # 概要
 
 Luminus のプロフィールページ
@@ -24,9 +22,10 @@ yarn release
 
 ### ホスティング
 
-Vercel
+Vercel  
+https://vercel.com/
 
 ### 色相選定
 
-Colorbase generate
+Colorbase generate  
 https://colorbase.app/ja/tools/generator?color=009dff&tab=alternative
