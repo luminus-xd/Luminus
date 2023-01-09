@@ -1,7 +1,8 @@
 import "src/styles/globals.scss";
+
+import { Inter, Noto_Sans_JP } from "@next/font/google";
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import { Inter, Noto_Sans_JP } from "@next/font/google";
 
 const inter = Inter({
   subsets: ["latin"],

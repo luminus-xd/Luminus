@@ -3,7 +3,7 @@
     "next/core-web-vitals",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
+    "prettier"
   ],
   "plugins": ["simple-import-sort", "import", "unused-imports"],
   "rules": {
@@ -12,6 +12,7 @@
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
-    "unused-imports/no-unused-imports": "error"
+    "unused-imports/no-unused-imports": "error",
+    "@next/next/no-img-element": "off"
   }
 }
