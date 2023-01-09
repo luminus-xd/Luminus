@@ -4,7 +4,6 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "plugin:storybook/recommended"
   ],
   "plugins": ["simple-import-sort", "import", "unused-imports"],
   "rules": {
