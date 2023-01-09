@@ -18,6 +18,12 @@ yarn dev
 yarn release
 ```
 
+### コードフォーマット
+
+```bash
+yarn format
+```
+
 ## 利用ツール
 
 ### ホスティング
