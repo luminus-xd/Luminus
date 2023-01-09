@@ -7,9 +7,9 @@ const Top: NextPage = () => {
         <h1 className="text-xl md:text-4xl font-bold p-2 md:p-3">Luminus.</h1>
       </header>
       <main>
-        <div className="relative block w-100 h-[33.333vw] bg-lightest">
+        <div className="relative block bg-lightest">
           <img
-            className="pointer-events-none"
+            className="pointer-events-none width-full"
             src="/pict-twitter-header.jpg"
             alt="Twitterヘッダー"
             decoding="async"
