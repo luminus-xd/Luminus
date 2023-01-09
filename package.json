@@ -11,7 +11,9 @@
     "eslint:fix": "eslint src --ext .js,jsx,.ts,.tsx --fix",
     "stylelint:fix": "stylelint src/**/*.{css,scss} --fix",
     "prettier:fix": "prettier --check --write 'src/**/*.{js,jsx,ts,tsx,css,scss,md,mdx}'",
-    "format": "npm run eslint:fix && npm run stylelint:fix && npm run prettier:fix"
+    "format": "npm run eslint:fix && npm run stylelint:fix && npm run prettier:fix",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.48.0",
@@ -31,12 +33,29 @@
     "stylelint-scss": "^4.3.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-interactions": "^6.5.15",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/builder-webpack5": "^6.5.15",
+    "@storybook/manager-webpack5": "^6.5.15",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.5.15",
+    "@storybook/testing-library": "^0.0.13",
     "@types/node": "18.11.5",
     "@types/react": "18.0.23",
     "@types/react-dom": "18.0.7",
+    "babel-loader": "^8.3.0",
+    "css-loader": "^6.7.3",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.0",
+    "eslint-plugin-storybook": "^0.6.8",
     "prettier": "^2.7.1",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "storybook-addon-next-router": "^4.0.2",
+    "style-loader": "^3.3.1",
     "typescript": "4.8.4"
   }
 }

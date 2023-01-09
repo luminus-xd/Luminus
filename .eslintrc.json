@@ -3,7 +3,8 @@
     "next/core-web-vitals",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier"
+    "prettier",
+    "plugin:storybook/recommended"
   ],
   "plugins": ["simple-import-sort", "import", "unused-imports"],
   "rules": {
