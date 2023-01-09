@@ -5,9 +5,8 @@ const MyDocument = () => {
     <Html lang="ja-JP">
       <Head>
         <meta name="application-name" content="MyTemplate" />
-        <meta name="description" content="" />
       </Head>
-      <body>
+      <body className="antialiased">
         <Main />
         <NextScript />
       </body>
