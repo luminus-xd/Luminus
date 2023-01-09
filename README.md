@@ -1,6 +1,7 @@
 # 概要
 
-Luminus のプロフィールページ
+Luminus のプロフィールページ  
+https://luminus.dev
 
 ## 使い方
 
