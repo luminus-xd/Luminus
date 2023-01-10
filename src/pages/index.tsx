@@ -9,10 +9,12 @@ const Top: NextPage = () => {
       <main>
         <div className="relative block bg-lightest">
           <img
-            className="pointer-events-none width-full"
+            className="pointer-events-none w-full"
             src="/pict-twitter-header.jpg"
             alt="Twitterヘッダー"
             decoding="async"
+            width="1500"
+            height="500"
           />
           <div className="absolute -bottom-12 md:-bottom-24 left-[50%] -translate-x-2/4 w-24 md:w-48 h-24 md:h-48">
             <img
@@ -20,6 +22,8 @@ const Top: NextPage = () => {
               src="/pict-twitter-icon.jpg"
               alt="Twitterアイコン"
               decoding="async"
+              width="200"
+              height="200"
             />
           </div>
         </div>
