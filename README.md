@@ -27,6 +27,14 @@ yarn release
 yarn format
 ```
 
+### WebP 画像変換
+
+`public/images`配下の`jpg,png`画像を Webp 形式に変換する
+
+```bash
+yarn image:webp
+```
+
 ## 利用ツール
 
 ### ホスティング
