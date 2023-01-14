@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 const NotoSansJP = Noto_Sans_JP({
-  subsets: ["japanese"],
+  subsets: ["latin"],
   weight: "400",
 });
 
