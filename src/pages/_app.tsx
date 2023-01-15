@@ -11,7 +11,7 @@ const inter = Inter({
 
 const NotoSansJP = Noto_Sans_JP({
   subsets: ["latin"],
-  weight: "400",
+  weight: ["400", "700"],
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
