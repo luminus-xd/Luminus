@@ -8,7 +8,7 @@ const Header = () => {
   const { isDark } = useTheme();
 
   return (
-    <Navbar variant="sticky" maxWidth="fluid" isCompact={{ "@mdMax": true }}>
+    <Navbar variant="sticky" maxWidth="fluid" isCompact={{ "@xsMax": true }}>
       <Navbar.Brand>
         <Text
           h1
@@ -18,7 +18,7 @@ const Header = () => {
               ? "60deg, $yellow600 -20%, $red600 100%"
               : "30deg, $black 0%, $black 100%",
             marginBottom: 0,
-            "@smMax": {
+            "@xsMax": {
               fontSize: 28,
             },
           }}

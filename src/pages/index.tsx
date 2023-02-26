@@ -1,10 +1,12 @@
-import { Container } from "@nextui-org/react";
+import { Container, Grid, Row, Spacer } from "@nextui-org/react";
 import type { NextPage } from "next";
+import SideNav from "src/components/SideNav";
 
-import Footer from "../components/_footer";
-import Header from "../components/_header";
-import Hero from "../components/_hero";
-import SectionProfile from "../components/_profile";
+import SectionContact from "../components/Contact";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import SectionProfile from "../components/Profile";
 
 const Top: NextPage = () => {
   return (
@@ -12,10 +14,21 @@ const Top: NextPage = () => {
       <Header />
       <main>
         <Hero />
+        <Spacer y={3} />
         <Container>
-          <SectionProfile />
+          <Grid.Container wrap="nowrap" gap={0} css={{ gap: 20 }}>
+            <Grid direction="column" xs={12} sm={9}>
+              <SectionProfile />
+              <Spacer y={2} />
+              <SectionContact />
+            </Grid>
+            <Grid xs={0} sm={3}>
+              <SideNav />
+            </Grid>
+          </Grid.Container>
         </Container>
       </main>
+      <Spacer y={3} />
       <Footer />
     </>
   );

@@ -7,11 +7,11 @@ const Footer = () => {
       variant="static"
       maxWidth="fluid"
       isCompact={{ "@mdMax": true }}
-      containerCss={{ justifyContent: "flex-end" }}
+      containerCss={{ justifyContent: "center" }}
     >
       <Navbar.Content gap="$lg">
         <Navbar.Item>
-          <Text small>© 2023 Luminus</Text>
+          <Text small>© Copyright 2023 Luminus</Text>
         </Navbar.Item>
       </Navbar.Content>
     </Navbar>
