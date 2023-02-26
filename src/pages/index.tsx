@@ -1,3 +1,4 @@
+import { Container } from "@nextui-org/react";
 import type { NextPage } from "next";
 
 import Footer from "../components/_footer";
@@ -11,7 +12,9 @@ const Top: NextPage = () => {
       <Header />
       <main>
         <Hero />
-        <SectionProfile />
+        <Container>
+          <SectionProfile />
+        </Container>
       </main>
       <Footer />
     </>

@@ -4,12 +4,3 @@
   --c-dark: #001f33;
   --c-lightest: #f4f5f5;
 }
-
-body {
-  background-color: var(--c-lightest);
-  color: var(--c-dark);
-}
-
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";

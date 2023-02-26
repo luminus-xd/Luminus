@@ -1,9 +1,9 @@
-import LinkElement from "./_linkElement";
+// import LinkElement from "./_linkElement";
 
 const SectionProfile = () => {
   return (
     <section className="bg-grayscale-1 py-12 px-4">
-      <div className="container mx-auto my-0">
+      {/* <div className="container mx-auto my-0">
         <ul className="flex flex-wrap gap-5">
           <li className="rounded bg-lightest p-3 shadow">
             <h3 className="text-lg font-bold">Profile</h3>
@@ -29,7 +29,7 @@ const SectionProfile = () => {
             </p>
           </li>
         </ul>
-      </div>
+      </div> */}
     </section>
   );
 };
