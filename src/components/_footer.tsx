@@ -1,8 +1,20 @@
+import { Navbar, Text } from "@nextui-org/react";
+import React from "react";
+
 const Footer = () => {
   return (
-    <footer className="flex justify-end p-2">
-      <span className="text-sm">©2023 Luminus.</span>
-    </footer>
+    <Navbar
+      variant="static"
+      maxWidth="fluid"
+      isCompact={{ "@mdMax": true }}
+      containerCss={{ justifyContent: "flex-end" }}
+    >
+      <Navbar.Content gap="$lg">
+        <Navbar.Item>
+          <Text small>© 2023 Luminus</Text>
+        </Navbar.Item>
+      </Navbar.Content>
+    </Navbar>
   );
 };
 
