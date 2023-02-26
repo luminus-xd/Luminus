@@ -11,7 +11,13 @@ const Hero = () => {
           width={1500}
           height={500}
           containerCss={{ width: "100%" }}
-          css={{ width: "100%", minHeight: 160, height: "auto" }}
+          css={{
+            width: "100%",
+            minHeight: 160,
+            height: "auto",
+            us: "none",
+            pointerEvents: "none",
+          }}
           objectFit="cover"
         />
         {/* <div className="absolute -bottom-12 md:-bottom-24 left-[50%] -translate-x-2/4 w-24 md:w-48 h-24 md:h-48">

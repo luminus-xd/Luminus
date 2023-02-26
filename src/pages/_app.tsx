@@ -6,14 +6,6 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 
-const lightTheme = createTheme({
-  type: "light",
-});
-
-const darkTheme = createTheme({
-  type: "dark",
-});
-
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -22,6 +14,14 @@ const inter = Inter({
 const NotoSansJP = Noto_Sans_JP({
   subsets: ["latin"],
   weight: ["400", "700"],
+});
+
+const lightTheme = createTheme({
+  type: "light",
+});
+
+const darkTheme = createTheme({
+  type: "dark",
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
