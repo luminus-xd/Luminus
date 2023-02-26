@@ -13,10 +13,12 @@ const SectionProfile = () => {
             src="/images/pict-twitter-icon.webp"
             color="gradient"
             bordered
+            alt=""
+            role={undefined}
           />
           <Grid.Container css={{ pl: "$6" }}>
             <Grid xs={12}>
-              <Text h4 css={{ lineHeight: "$xs" }}>
+              <Text h3 size={24} css={{ lineHeight: "$xs" }}>
                 Luminus
               </Text>
             </Grid>
@@ -32,7 +34,7 @@ const SectionProfile = () => {
         </Card.Body>
         <Card.Footer>
           <Link
-            color="primary"
+            color="secondary"
             target="_blank"
             href="https://github.com/luminus-xd"
           >
