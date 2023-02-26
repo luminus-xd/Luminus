@@ -1,4 +1,4 @@
-import { Container, Grid, Row, Spacer } from "@nextui-org/react";
+import { Container, Grid, Spacer } from "@nextui-org/react";
 import type { NextPage } from "next";
 import SideNav from "src/components/SideNav";
 
