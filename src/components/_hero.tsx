@@ -29,7 +29,7 @@ const Hero = () => {
         </div> */}
       </div>
       {/* <div className="mt-12 md:mt-24 flex justify-center flex-wrap pb-8">
-        <h2 className="text-xl font-bold">MID_Luminus</h2>
+        <h2 className="text-xl font-bold">Luminus</h2>
         <div className="w-full font-bold text-center opacity-70">
           雑種系ゲーマー
         </div>
