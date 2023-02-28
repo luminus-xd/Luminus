@@ -18,7 +18,7 @@ const SectionProfile = () => {
           />
           <Grid.Container css={{ pl: "$6" }}>
             <Grid xs={12}>
-              <Text h3 size={24} css={{ lineHeight: "$xs" }}>
+              <Text h3 size={21} css={{ lineHeight: "$xs", marginBottom: "0.2em" }}>
                 Luminus
               </Text>
             </Grid>

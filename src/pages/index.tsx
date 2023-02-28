@@ -15,7 +15,7 @@ const Top: NextPage = () => {
       <main>
         <Hero />
         <Spacer y={3} />
-        <Container>
+        <Container css={{maxHeight: 1180}}>
           <Grid.Container wrap="nowrap" gap={0} css={{ gap: 20 }}>
             <Grid direction="column" xs={12} sm={9}>
               <SectionProfile />
