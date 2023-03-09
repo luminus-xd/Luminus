@@ -24,34 +24,32 @@ const darkTheme = createTheme({
   type: "dark",
 });
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
-    <>
-      <NextThemesProvider
-        defaultTheme="system"
-        attribute="class"
-        value={{
-          light: lightTheme.className,
-          dark: darkTheme.className,
-        }}
-      >
-        <Head>
-          <title>Luminus.</title>
-          <meta name="description" content="Luminusのプロフィールページ" />
-        </Head>
-        <style jsx global>
-          {`
+    <NextThemesProvider
+      defaultTheme="system"
+      attribute="class"
+      value={{
+        light: lightTheme.className,
+        dark: darkTheme.className,
+      }}
+    >
+      <Head>
+        <title>Luminus.</title>
+        <meta name="description" content="Luminusのプロフィールページ" />
+      </Head>
+      <style>
+        {`
             body {
               font-family: ${inter.style.fontFamily},
                 ${NotoSansJP.style.fontFamily};
             }
           `}
-        </style>
-        <NextUIProvider>
-          <Component {...pageProps} />
-        </NextUIProvider>
-      </NextThemesProvider>
-    </>
+      </style>
+      <NextUIProvider>
+        <Component {...pageProps} />
+      </NextUIProvider>
+    </NextThemesProvider>
   );
 }
 
